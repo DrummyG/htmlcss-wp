@@ -1,0 +1,171 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+.clearfix::after{
+	content: “”;
+	display: table;
+	clear: both;
+}
+
+.bigbox{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+/* sezione nav */
+
+nav img{
+    height: 70px;
+    display: block;
+    margin-bottom: 20px;
+    border-right: 1px solid #d7d7d7;
+    padding: 10px;
+}
+
+.navigator{
+    color: #858484;
+    margin-right: 15px;
+    text-transform: uppercase;
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul li:hover{
+    color: black;
+}
+
+/* sezione hero */
+
+header{
+    height: 500px;
+    margin-top: 30px;
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    border-radius: 10px;
+}
+
+.description{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    color: white;
+    position: relative;
+}
+
+.big-text{
+    font-size: xx-large;
+    width: 500px;
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+}
+
+.small-text{
+    width: 500px;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    font-size: small;
+}
+
+/* sezione main */
+
+main{
+    width: 100%;
+    height: 700px;
+    margin-top: 30px;
+}
+
+.title{
+    width: 100%;
+    height: 80px;
+    margin-bottom: 30px;
+}
+
+.box img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.box{
+    position: relative;
+}
+
+.top-img::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 70%;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.top-img{
+    width: 100%;
+    height: 30%; 
+}
+
+.top-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+
+
+.text{
+    color: #a7a5a5;
+}
+
+.subtitle{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* lavoro sul float */
+
+.floater{
+    float: left;
+    height: 560px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.floater-opp{
+    float: right;
+    height: 560px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+aside{
+    width: 20%;
+}
+
+section{
+    width: 50%;
+    margin: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* sezione footer */
+
+footer{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.heart{
+    color: red;
+}
