@@ -41,29 +41,24 @@ ul li:hover{
 
 /* sezione hero */
 
-header{
+.hero{
     height: 500px;
     margin-top: 30px;
     background-position: center;
     border-radius: 10px;
-}
-
-.description{
-    width: 100%;
-    height: 100%;
     border-radius: 10px;
     color: white;
     position: relative;
 }
 
-.description img{
+.hero img{
     width: 100%;
-    height: 100%;
+    height: 500px;
     object-fit: cover;
     border-radius: 10px;
 }
 
-.description::after{
+.overlay::after{
     content: "";
     position: absolute;
     top: 0;
